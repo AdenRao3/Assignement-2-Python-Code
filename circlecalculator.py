@@ -1,5 +1,5 @@
 # Created by: Aden Rao
-# Created on: Febuary 25th, 2019 
+# Created on: Febuary 2th, 2019 
 # This program you put in the diameter of a circle and it will calculate the area and circumference of the circle.
 
 diameter = int(input( ' enter the diameter: '))
