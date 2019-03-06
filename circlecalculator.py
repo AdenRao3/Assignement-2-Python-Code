@@ -6,5 +6,9 @@ diameter = int(input( ' enter the diameter: '))
 
 import math
 
-print (round(math.pi*(diameter/2)*(diameter/2))), print ("Area")
-print (round(math.pi*(diameter))), print ("Circumference")
+circumference = 2 * (math.pi * (diameter/2))
+area = math.pi * (diameter/2) ** 2 
+print( "The circumference is " + str(circumference))
+print( "The area is " + str(area))
+
+end = input ('Thank You!')
